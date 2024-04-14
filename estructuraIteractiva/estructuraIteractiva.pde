@@ -10,10 +10,13 @@ public void setup(){
 }
 
 public void draw(){
- dibujarRect(); 
+ dibujarRect();
 }
 
 public void dibujarRect(){
  for(float x=coordenadasRect.x;x<width;x+= (ancho+distanciaRect)){
+   for(float y=coordenadasRect.x;y<height;y+= (alto+distanciaRect)){
+     rect(x,y,ancho,alto);
+  }
  }
 }
