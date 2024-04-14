@@ -11,6 +11,7 @@ public void setup(){
 
 public void draw(){
  dibujarRect();
+ fill(#FFBE08);
 }
 
 public void dibujarRect(){
